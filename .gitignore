@@ -1,4 +1,6 @@
 **/.DS_Store
 **/.idea/
-data/
-model/
+data/**
+model/**
+
+!**/.gitkeep
