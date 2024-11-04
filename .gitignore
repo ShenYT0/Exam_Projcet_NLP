@@ -3,5 +3,7 @@
 data/**
 model/**
 script/server_config.py
-
+**/.ipynb_checkpoints/
+.venv/
+**/__pycache__/
 !**/.gitkeep
