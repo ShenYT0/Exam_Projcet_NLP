@@ -1,5 +1,7 @@
 # Exam_Projcet_NLP
 Exam project for [TALA540A - Documents structures](https://github.com/RimeAB/TALA540A-24-25/blob/main/Examen_Projet_NLP.md)
+
+We chose a parallel corpus of translation tasks and used it to evaluate the translation model.
 ## Groupe Member
 > [Siman CHEN] (https://github.com/simannnc)
 > 
@@ -19,21 +21,18 @@ https://huggingface.co/Helsinki-NLP/opus-mt-ja-en (For evaluation)
 https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt (For comparison)
 
 ## Corpus analysis
-This part is handled by Yuntian SHEN.
 
 For more details, please refer to branch [corpus_analysis](https://github.com/ShenYT0/Exam_Projcet_NLP/tree/corpus_analysis)
 
 A detailed account of the description and analysis of various aspects of our chosen corpus is given here.
 
 ## Introducing the model
-This part is handled by Siman CHEN.
 
 For more details, please refer to branch [model_comparison](https://github.com/ShenYT0/Exam_Projcet_NLP/tree/model_comparison)
 
 The features used in our chosen model are described here, and a comparison of the performance of two different models is presented, with their advantages and disadvantages shown.
 
 ## Evaluating the model by corpus
-This part is handled by Weiqi ZHANG.
 
 For the script of evalution, please refer to branch [model_evaluation](https://github.com/ShenYT0/Exam_Projcet_NLP/tree/model_evaluation)
 
