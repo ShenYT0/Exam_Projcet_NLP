@@ -60,7 +60,7 @@ This highlights the balance between speed, accuracy, and computing resources, wh
 
 We further conducted a more detailed analysis on the results based on `opus-mt-ja-en` model.
 In the corpus analysis part, we calculated various statistical measures for sentence lengths in both English and Japanese, based on encoded tokens from the sentences in a dataset split. It computes the average (mean) length, the median length, and the third quartile (Q3) length of the sentences.
-In [model_evaluate (in main)](model_evaluate.ipynb), we further focus on long sentences using the third quartile we have calculated to identify sentences that are longer than over 20 tokens by creating a long sub-corpus. We found that the Bleu scores have dropped to 14.87, compared to the overall Bleu score, which is 16.85.
+In [model_evaluate (in main)](model_evaluate.ipynb), we further focus on long sentences using the third quartile we have calculated to identify sentences that are longer than over 20 tokens to create a long sub-corpus for comparison. We found that the Bleu scores have dropped to 14.87, compared to the overall Bleu score, which is 16.85.
 Another results we found is that the `opus-mt-ja-en` model is better with spoken text with short sentences, which is evidenced by the fact that the category "general chatting" with shorter sentences have achieved higher bleu scores than other categories.  
 
 ![categories](images/image1.png)
