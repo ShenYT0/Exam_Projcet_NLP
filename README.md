@@ -49,4 +49,6 @@ If other algorithms for evaluating the level of translation can be found, the re
 
 ## Results
 The results indicate that although `opus-mt-ja-en` operates faster, the larger model, `mbart-large-50-many-to-many-mmt`, which is trained on a more extensive dataset, achieves higher scores and performs better.
-And the `opus-mt-ja-en` model is better at spoken text with short sentences.
+In [notebook](model_evaluate.ipynb), the results show that the `opus-mt-ja-en` model is better at spoken text with short sentences, which is evidenced by the fact that the category "general chatting" with shorter sentences have achieved higher bleu scores than other categories.  
+
+![<# alt text #>](../../../../var/folders/zf/pddfgzln54z8s3jv_bd136wm0000gn/T/TemporaryItems/NSIRD_screencaptureui_HHEUNh/Screenshot%202024-11-07%20at%2000.13.01.png "Screenshot")
