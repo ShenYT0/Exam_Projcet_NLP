@@ -18,8 +18,11 @@ We carried out a translation task from Japanese to English by comparing two mode
 https://paperswithcode.com/dataset/business-scene-dialogue
 
 ## Selected Model
+
+The `Helsinki-NLP/opus-mt-ja-en` model is specifically trained to translate from Japanese to English.
 https://huggingface.co/Helsinki-NLP/opus-mt-ja-en (For evaluation)
 
+The `mbart-large-50-many-to-many-mmt` model is fine-tuned for multilingual machine translation.
 https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt (For comparison)
 
 ## Corpus analysis
@@ -50,7 +53,7 @@ If other algorithms for evaluating the level of translation can be found, the re
 
 
 ## Results
-The results indicate that although `opus-mt-ja-en` operates faster, the larger model, `mbart-large-50-many-to-many-mmt`, which is trained on a more extensive dataset, performs slightly better.
+The results indicate that  `opus-mt-ja-en` operates faster, and the larger model, `mbart-large-50-many-to-many-mmt`, which is trained on a more extensive dataset, performs slightly better on the specific translation task from Japanese to English.
 
 ![scores](images/image2.png)
 
