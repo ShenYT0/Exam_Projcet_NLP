@@ -1,7 +1,0 @@
-**/.DS_Store
-**/.idea/
-data/**
-model/**
-script/server_config.py
-
-!**/.gitkeep

@@ -1,9 +1,18 @@
+# system
 **/.DS_Store
+
+# python
+**/.ipynb_checkpoints/
+**/__pycache__/
+.venv/
+
+# jetbrains
 **/.idea/
+
+# project
 data/**
 model/**
 script/server_config.py
-**/.ipynb_checkpoints/
-.venv/
-**/__pycache__/
+
+# exceptions
 !**/.gitkeep
