@@ -1,0 +1,28 @@
+{
+    "../data/facebook_mbart.parquet": {
+        "bleu": 0.14340253335456493,
+        "precisions": [
+            0.4677776700260345,
+            0.1956259686585156,
+            0.10212944164747226,
+            0.054547125122508984
+        ],
+        "brevity_penalty": 0.9543542673582772,
+        "length_ratio": 0.9553650332107528,
+        "translation_length": 134053,
+        "reference_length": 140316
+    },
+    "../data/translation_Helsinki-NLP.parquet": {
+        "bleu": 0.13898060169557758,
+        "precisions": [
+            0.45435225425959835,
+            0.19098974015385733,
+            0.09687318273316932,
+            0.05040941402305516
+        ],
+        "brevity_penalty": 0.9686674398744693,
+        "length_ratio": 0.96914820832977,
+        "translation_length": 135987,
+        "reference_length": 140316
+    }
+}
