@@ -22,3 +22,6 @@ https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt (For comparison)
 ## Introducing the model
 
 ## Evaluating the corpus using two model
+
+## Results
+The results indicate that although opus-mt-ja-en operates faster, the larger model, mbart-large-50-many-to-many-mmt, which is trained on a more extensive dataset, achieves higher scores and performs better.
