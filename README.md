@@ -1,4 +1,5 @@
 # Exam_Projcet_NLP
+Exam project for [TALA540A - Documents structures](https://github.com/RimeAB/TALA540A-24-25/blob/main/Examen_Projet_NLP.md)
 ## Groupe Member
 > [Siman CHEN] (https://github.com/simannnc)
 > 
