@@ -8,7 +8,17 @@
 >
 
 ## Selected Corpus
+**Japanese-English Business Scene Dialogue parallel corpus**
+
 https://paperswithcode.com/dataset/business-scene-dialogue
 
 ## Selected Model
-https://huggingface.co/Helsinki-NLP/opus-mt-ja-en
+https://huggingface.co/Helsinki-NLP/opus-mt-ja-en (For evaluation)
+
+https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt (For comparison)
+
+## Corpus analysis
+
+## Introducing the model
+
+## Evaluating the corpus using two model
