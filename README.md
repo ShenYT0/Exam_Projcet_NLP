@@ -45,4 +45,4 @@ Furthermore, we hope to compare their performance on translation benchmark. Here
 - **Tokenisers:** Both tokenizers are  based on the SentencePiece model. However, MarianMT's tokenizer is optimized for specific language pairs, ensuring efficient and effective translation within those bounds, while mBART's tokenizer supports a much broader range of languages, suitable for a multilingual context. Also, in the small script which is for demonstration of usagae, we can see `MBart50TokenizerFast` performs faster than the MarianMT's tokenizer.
 - **Model Size and Runtime**: MarianMT models are smaller and faster, suited for quicker translation tasks with limited resources. mBART models, being larger, are generally slower but can handle a wider variety of languages and more complex translation tasks.
 
-Based on these aspects, we will  performance the translation task on a benmark corpus using these two models and further compare the quality of both results.
+Based on these aspects, we will performance the translation task on a benmark corpus using these two models and further compare the quality of both results.
