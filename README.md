@@ -50,7 +50,7 @@ If other algorithms for evaluating the level of translation can be found, the re
 ## Results
 The results indicate that although `opus-mt-ja-en` operates faster, the larger model, `mbart-large-50-many-to-many-mmt`, which is trained on a more extensive dataset, achieves higher scores and performs slightly better.
 
-![scores](images/image2)
+![scores](images/image2.png)
 
 The difference in BLEU scores between the Facebook MBART and Helsinki-NLP models is relatively small, with Facebook MBART scoring 0.1434 and Helsinki-NLP scoring 0.1389. Although Facebook MBART leads, the margin is not very large. 
 Generally speaking, `opus-mt-ja-en` model is smaller and faster, suited for quicker translation tasks with limited resources. `mBART` models, being larger, are generally slower but can achieve a better results with a variety of languages. 
@@ -60,5 +60,5 @@ In [notebook](corpus_analysis.ipynb), we calculated various statistical measures
 In [model_evaluate in main](model_evaluate.ipynb), we further focus on long sentences using the third quartile we have calculated to identify sentences that are longer than over 20 tokens by creating a long sub-corpus. We found that the Bleu scores have dropped to 14.87, compared to the overall Bleu score, which is 16.85.
 Another results we found is that the `opus-mt-ja-en` model is better with spoken text with short sentences, which is evidenced by the fact that the category "general chatting" with shorter sentences have achieved higher bleu scores than other categories.  
 
-![categories](images/image1)
+![categories](images/image1.png)
 
