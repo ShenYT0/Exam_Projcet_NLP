@@ -46,7 +46,7 @@ We used two models to translate the Japanese portion of the corpus, and compared
 As a complement, here [notebook](model_evaluate.ipynb) uses the `Helsinki-NLP/opus-mt-ja-en` model to compute BLEU scores for different sub-corpora.
 
 ## Difficulties Encountered
-The difficulties encountered come mainly from the lack of computing performance, which causes the model to run abnormally slow.
+Some parts of the evaluation are conducted with haste. More time will allow us to further improve our scripts for more thorough research (i.e. testing other models, using other metrics.)
 
 ## Avenues for Improvement
 If other algorithms for evaluating the level of translation can be found, the results can be evaluated more comprehensively.
