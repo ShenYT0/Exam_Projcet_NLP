@@ -1,9 +1,9 @@
-# Analyse du corpus
+# Corpus Analysis
 
-## Corpus choisi
+## Selected Corpus
 
-La tâche que nous avons choisie est la traduction et nécessite donc des corpus parallèles pour les comparaisons bilingues.
+The task we have chosen is translation and therefore requires parallel corpora for bilingual comparisons.
 
-Nous avons choisi le [corpus Business Scene Dialogue](https://paperswithcode.com/dataset/business-scene-dialogue).
+We have selected this benchmark corpus [corpus Business Scene Dialogue](https://paperswithcode.com/dataset/business-scene-dialogue).
 
-Une analyse détaillée de ce corpus se trouve dans ce [notebook](./corpus_analysis.ipynb).
+A more detailed corpus analysis can be found here [notebook](./corpus_analysis.ipynb).
