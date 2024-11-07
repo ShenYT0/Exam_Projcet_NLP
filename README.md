@@ -4,14 +4,14 @@ This branch is the model evaluation for translation task
 We evaluated two seq2seq model for Japanese to English translation: [MarianMT](https://huggingface.co/docs/transformers/model_doc/marian) and [facebook mbart](https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt).
 ## Translation scripts
 - Two notebooks are presented in the `script` directory. These two notebooks use the corresponding model to translate the corpus presented in `data/ryo0634__bsd_ja_en`. 
-- The reason that we used two notebooks instead of a `.py` file is that each model requires some minor modifications to the script, which excludes the possibility to use the `argparse` module.
+- The reason that we used two notebooks instead of a `.py` file is that each model requires some minor changes to the script, which excludes the possibility to use `argparse` module.
 - We basically used these models to translate a portion of `bsd` dataset (where the original sentence is in Japanese) on a server. We then output the translated dataset, with three columns: `['ja_sentence', 'translations', 'en_sentence']`. Needless to say, `en_sentence` serves as the golden corpus for model performance evaluation.
 - These notebooks output two datasets saved in `.parquet` format in the `data` directory.
 ## Evaluation
-- We used `data/evaluation.py` script to evaluate the datasets with translation.
-- For usage of the script, use `python evaluation.py -h` in the command line.
+- We used [evaluation.py](https://github.com/ShenYT0/Parallel-corpus-evaluation-for-translation-tasks/blob/model_evaluation/script/evaluation.py) script to evaluate the datasets with translation.
+- For usage of the script, see `python evaluation.py -h`.
 - In general, we used the `bleu` score of the `evaluate` package on HuggingFace. For further improvements of the script, we can provide other metrics as well.
-- `evaluation.py` outputs a `results/result.json` file.
+- `evaluation.py` outputs a [results/result.json](https://github.com/ShenYT0/Parallel-corpus-evaluation-for-translation-tasks/blob/model_evaluation/results/result.json) file.
 ## Quantitative test
 - We notice that the `facebook_mbart` model produces a higher bleu score of 0.143 (vs. 0.138 by MarianMT), it yields better results for n-gram precision as well.
 ## Qualitative test
