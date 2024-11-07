@@ -10,8 +10,8 @@ We evaluated two seq2seq model for Japanese to English translation: [MarianMT](h
 ## Evaluation
 - We used `data/evaluation.py` script to evaluate the datasets with translation.
 - For usage of the script, use `python evaluation.py -h` in the command line.
-- In general
-- `evaluation.py` output a `results/result.json` file.
+- In general, we used the `bleu` score of the `evaluate` package on HuggingFace. For further improvements of the script, we can provide other metrics as well.
+- `evaluation.py` outputs a `results/result.json` file.
 ## Quantitative test
 - We notice that the `facebook_mbart` model produces a higher bleu score of 0.143 (vs. 0.138 by MarianMT), it yields better results for n-gram precision as well.
 ## Qualitative test
